@@ -2,6 +2,8 @@ Hoisitng in javascript is a basic fundamnetal as well as a crucial part.
 ->
     Hoisitng is a phenomena in js by which we can access the variables and functions even before initialization and can access it without any error.
 
+"Let" keyword in js is used to declare blck-scoped variable.
+"Const" variable in js is used to declare constant variable or to make variable constant.
 
 1. Call Stack
 2. Execution Context Stack
