@@ -12,7 +12,19 @@ Hoisitng in javascript is a basic fundamnetal as well as a crucial part.
 5. Machine Stack
 
 
-chapters:-
+Chapters:->
 [a] Guess-Number Project
 [b] Date
 [c] DOM
+
+Terminologies:->
+    1)  1.1) Function vs Methods
+        1.2) Declaration vs Definition
+        1.3) Arguements vs Parameters
+    2) Higher Order Function
+    3) Function Declarations & Executions
+    4) Arrow Function & Nested Function
+    5) Function Scope
+    6) Call Stack
+    7) IIFE (Immediately Invoked Function Expression)
+    8) Recursion
