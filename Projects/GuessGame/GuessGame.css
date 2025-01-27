@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Playwrite+VN:wght@100..400&family=Quicksand:wght@300..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+
+    /* body .quicksand-body { */
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    /* } */
+}
+
+body {
+    background-color: rgba(0, 180, 108, 0.597);
+    margin: auto;
+    margin-top: 10%;
+    height: 100%;
+    width: 70%;
+    padding: 10px;
+    border: 2px ridge #e5c459d1;
+
+    /* back button */
+    a {
+        #back-btn {
+            background: transparent;
+            height: 2em;
+            cursor: pointer;
+            margin-bottom: 10px;
+            border: none;
+            width: 8em;
+            font-weight: 800;
+        }
+
+        #back-btn:hover {
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: rgb(255, 255, 255);
+        }
+    }
+
+    header {
+        background-color: #e5c459d1;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        /* again button */
+        .btn-again {
+            height: 40px;
+            width: 100px;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.665);
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        .range {
+            font-size: 1.6rem;
+            font-weight: 600;
+            color: brown;
+        }
+        h2{
+            /* display: inline-flex; */
+            margin-right: 65%;
+            font-size: 2rem;
+            color:rgb(8, 67, 67)
+        }
+        .number {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid black;
+            width: 60px;
+            height: 50px;
+            background-color: #fff;
+            font-size: 2rem;
+            /* animation-name: guessButton;
+            animation-delay: 1s;
+            animation-duration: 4s; */
+        }
+    }
+
+    main {
+        background-color: #e5c459d1;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        
+        .left {
+            text-align: justify;
+        }
+        /* check button */
+        .right {
+            display: flex;
+            gap: 0px;
+        }
+        .btn-check {
+            height: 40px;
+            width: 100px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            background-color: cadetblue;
+            border: 1px dotted grey;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        .guessNum {
+            height: 40px;
+            width: 150px;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border: none;
+            outline: none;
+            text-align: center;
+            font-size: 1.4rem;
+        }
+        p{
+            margin: 5px;
+            font-size: 1.3rem;
+            font-weight: 500;
+        }
+    }
+}
+
+/* animation */
+/* @keyframes guessButton {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:0px; right:200px;}
+  } */

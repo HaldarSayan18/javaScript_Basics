@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./GuessGame.css" />
+    <title>GuessGame Interface</title>
+</head>
+
+<body>
+    <a href="../index.html"><button id="back-btn"> 🔙 to Main Page</button></a>
+    <header>
+        <div style="
+            display:flex; 
+            justify-content:space-between; 
+            width: 100%;
+            margin-bottom:10px;
+        ">
+            <button class="btn-again">♻ Again!!</button>
+            <p class="range">(Between 1 and 20)</p>
+        </div>
+        <h2>Guess My Number !</h2>
+        <div class="number">?</div>
+    </header>
+    <main>
+        <section class="left">
+            <p id="message">Start guessing...</p>
+            <p class="label-score">💯 Your Score is: <span class="score">20</span></p>
+            <p class="label-highscore">🏅 Highest Score is: <span class="highScore">0</span></p>
+        </section>
+        <section class="right">
+            <input type="number" class="guessNum" />
+            <button class="btn-check">Check!</button>
+        </section>
+    </main>
+    <script src="./GuessGame.js"></script>
+</body>
+
+</html>
